@@ -1,0 +1,40 @@
+<div class="box-set">
+  <div class="box box-1">Box 1</div>
+  <div class="box box-2">Box 2</div>
+  <div class="box box-3">Box 3</div>
+</div>
+<div class="footer">
+  FIXED FOOTER
+</div>
+<style>
+.box-set {
+  background: #e8eae9;
+  height:400px;
+  position:relative;
+}
+.box {
+  position:fixed;
+  background: #8ec63f;
+  height: 100px;
+  margin: 10px;
+  width: 200px;
+}
+.box-1{
+  top:20px;
+}
+.box-2{
+  top:200px;
+  left:40px;
+}
+.box-3{
+  bottom:-40px;
+  right:20px;
+}
+.footer{
+  bottom:0;
+  background-color: #8ec63f;
+  left:0;
+  position:fixed;
+  right: 0;
+}
+</style>
