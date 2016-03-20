@@ -1,0 +1,412 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "Microsoft YaHei"
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+  padding:0 0 0 45px;
+  width:892px;
+}
+.logo {
+  display: inline-block;
+  position: relative;
+  background-color: #d45d5c;
+  width: 110px;
+  height: 61px;
+}
+.logo>a {
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  left:7px;
+  bottom: 6px;
+  font-size: 0.8em;
+}
+.date {
+  display: inline-block;
+  position: relative;
+  left:732px;
+  bottom:6px;
+  color: #d76c6b;
+  font-size: 0.6em;
+}
+.grey-line {
+  position:relative;
+  top:-2px;
+  width:892px;
+  height: 2px;
+  background-color: #938e8c;
+}
+.part1{
+  position: relative;
+  padding:34px 0 0 0;
+}
+.sector1>img {
+  position: absolute;
+  display:inline-block;
+  width:640px;
+  height:300px;
+}
+.purple-line {
+  position: absolute;
+  background-color: #cc8091;
+  width:202px;
+  height:2px;
+  right:2px;
+}
+.sector2 {
+  position: absolute;
+  right:2px;
+}
+.sector2>.title {
+  margin:10px 0 0 0;
+  position:absolute;
+  left:0px;
+  text-decoration: underline;
+}
+.title>.bigger {
+  font-size: 1.4em;
+}
+.subtitle {
+  position: relative;
+  top:58px;
+  font-size: 0.73em;
+  font-style: italic;
+
+}
+.number {
+  position:absolute;
+  left:-16px;
+  top:125px;
+  font-size: 116px;
+  color: rgb(116,184,107);
+  font-style: oblique;
+  font-weight: 600;
+}
+.number2{
+  position: absolute;
+  top:250px;
+}
+.number3 {
+  display: inline-block;
+  font-size: 55px;
+  color: #cc8091;
+}
+.number2>.css {
+  display: inline-block;
+  color: #cc8091;
+  font-size: 21px;
+  position: relative;
+  top:-10px;
+}
+.number2>.csscss{
+  display: inline-block;
+  font-size: 12px;
+  position:relative;
+  left:84px;
+  top:-20px;
+  color: #ccc;
+}
+.sector3 {
+  position:absolute;
+  top:370px;
+}
+.sector3>.what,.sector3>.when,.sector3>.how {
+  display: inline-block;
+  float:left;
+  margin-right: 34px;
+  color: #767777;
+}
+.sector3>.what {
+  width:226px;
+}
+.sector3>.when {
+  width: 202px;
+}
+.sector3>.how {
+  width: 130px;
+}
+.article-content {
+  font-size: 12px;
+}
+.what>.article-title {
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #418c59;
+  margin-bottom: 20px;
+}
+.when>.article-title {
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #d2994f;
+  margin-bottom: 20px;
+}
+.how>.article-title {
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #cc7680;
+  margin-bottom: 20px;
+}
+.article-content {
+  line-height: 16px;
+}
+.article-list {
+  color: #231815;
+  margin-top: 36px;
+  line-height: 20px;
+}
+.red-stress {
+  color: #cd4a48;
+  font-style: oblique;
+}
+.part2 {
+  position:relative;
+  top:570px;
+}
+.part2-title {
+  position: absolute;
+  width:415px;
+  color: #11456b;
+  font-size: 32px;
+  line-height: 45px;
+}
+.yellow-stress {
+  display:inline-block;
+  font-size: 72px;
+  color: #f5e327;
+  font-style: oblique;
+}
+.title-line {
+  width:415px;
+  height:2px;
+  background-color: #11456b;
+}
+.left-article {
+  position: absolute;
+  top:180px;
+  width:415px;
+}
+.red-big {
+  font-size: 70px;
+  color:#f5e327;
+  float:left;
+  padding-right: 5px;
+}
+.left-content {
+  font-family: "SimSun";
+  font-size: 12px;
+  line-height: 20px;
+  color:#767777;
+}
+.pic3 {
+  float:right;
+  margin:15px 0 15px 20px;
+}
+.para-indent {
+  text-indent: 2em;
+  font-family: "SimSun";
+  color: #767777;
+}
+.right-picture {
+  position:absolute;
+  left:435px;
+}
+.green-block {
+  width:3px;
+  height:44px;
+  position: absolute;
+  background-color: #72b16a;
+  top:9px;
+  left:38px;
+}
+.black-block {
+  position: absolute;
+  background-color: #000;
+  width:458px;
+  height:60px;
+  opacity: 0.5;
+  top:198px;
+}
+.pic2 {
+  position: absolute;
+}
+.picture-title {
+  position: absolute;
+  color: #fff;
+  line-height: 60px;
+  font-size: 26px;
+  left:50px;
+}
+.picture-title2 {
+  position: absolute;
+  color: #72b16a;
+  font-style: oblique;
+  letter-spacing: 140%;
+  left:160px;
+  top:32px;
+  font-size: 12px;
+}
+.right-quote {
+  background-color: rgb(238,238,214);
+  position: absolute;
+  width:459px;
+  height:318px;
+  left:435px;
+  top:290px;
+}
+.front-end-list {
+  position: absolute;
+  font-size: 16px;
+  color: #515b5b;
+  font-family: "SimSun";
+  left:60px;
+  top:39px;
+  text-align: left;
+}
+.list-style-image {
+  position: absolute;
+  left:35px;
+  top:39px;
+}
+.front-end-list>li {
+  margin-bottom: 20px;
+}
+.smaller {
+  font-size: 12px;
+  color: #5a5a5b;
+  font-family: "SimSun";
+  word-spacing: 140%;
+  font-style: oblique;
+}
+.right-red {
+  color:#fff;
+  position:absolute;
+  width: 260px;
+  height: 160px;
+  bottom: 0px;
+  left:0px;
+  background-color: #d45d5c;
+}
+.zero {
+  position: absolute;
+  font-size: 110px;
+  line-height: 160px;
+  left:15px;
+}
+.one-two-three {
+  position: absolute;
+  font-size: 21px;
+  font-family: "SimHei";
+  font-style: oblique;
+  top:40px;
+  left:90px;
+}
+.hello-world {
+  position: absolute;
+  top:88px;
+  left:92px;
+  font-family: "SimHei";
+  font-size: 12px;
+}
+.slice {
+  width: 2px;
+  height: 82px;
+  background-color: #fff;
+  position: absolute;
+  left:84px;
+  top:40px;
+}
+.right-quote2 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding:0 20px 40px 0;
+  width:165px;
+  height:120px;
+}
+.quote1,.quote2 {
+  font-family: "SimHei";
+  font-size: 72px;
+  color: #d45d5c;
+  display: inline-block;
+  position: absolute;
+}
+.quote1 {
+  left:-40px;
+}
+.quote2 {
+  right: -10px;
+  bottom: -7px;
+}
+.hello-world-quote {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #5a5b5b;
+  line-height: 16px;
+  font-style: oblique;
+  font-family: "SimHei";
+  text-indent: 2.6em;
+}
+.footer {
+  position:relative;
+  top:1215px;
+}
+.black-line {
+  width:892px;
+  height: 1px;
+  background-color: #938e8c;
+}
+.ife-tag {
+  display: inline-block;
+  position: relative;
+  left:815px;
+  color: #d76c6b;
+  font-size: 0.6em;
+}
