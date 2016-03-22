@@ -172,3 +172,132 @@ table {
   left:323px;
   top:133px;
 }
+.part3-outer {
+  width:100%;
+  background-color: #ededec;
+  height:361px;
+  position: absolute;
+  top:997px;
+}
+.part3 {
+  width:1280px;
+  height:361px;
+  margin: 0 0 0 -640px;
+  position: absolute;
+  left:50%;
+}
+.part3>img {
+  position:absolute;
+  left:595px;
+  top:89px;
+}
+.part3>span {
+  position:absolute;
+  left:212px;
+  top:227px;
+  font-family: "SimHei";
+  font-size: 53.59px;
+  color: #323333;
+  opacity: 0.5;
+}
+.part4 {
+  position:absolute;
+  width:1280px;
+  left:50%;
+  margin: 0 0 0 -640px;
+  top:747px;
+}
+.part4>img {
+  position: absolute;
+}
+.part4-shade {
+  position: absolute;
+  background-color: #aa3433;
+  opacity: 0.2;
+  width:1281px;
+  height:341px;
+  top:610px;
+}
+#part4-main-title {
+  position: absolute;
+  top:662px;
+  left:501px;
+  font-size: 21px;
+  color: #fff;
+}
+.white-block {
+  position: absolute;
+  top:694px;
+  left:601px;
+  width:31px;
+  height:3px;
+  background-color: #fff;
+}
+.part4-sub-title {
+  position: absolute;
+  top:717px;
+  left:448px;
+  font-size: 12px;
+  color: #fff;
+}
+.part4-select-bar>select{
+  width:236px;
+  height: 36px;
+  background-color: #fff;
+  margin-right: 28px;
+}
+#search {
+  width:236px;
+  height: 36px;
+  background-color: #be4e48;
+  border: none;
+  word-spacing: 25px;
+  color: #fff;
+  font-size: 14px;
+}
+.part4-select-bar {
+  position: absolute;
+  top:781px;
+  left:126px;
+}
+.part5-outer {
+  position: absolute;
+  top:1672px;
+  width: 100%;
+  height: 631px;
+  background-color: #f7f7f7;
+}
+.part5 {
+  width: 1280px;
+  height: 631px;
+  position: absolute;
+  left:50%;
+  margin: 0 0 0 -640px;
+}
+.part5-wrapper {
+  float: left;
+  margin: 148px 0 0 127px;
+}
+.part5-content {
+  float:left;
+  height:388px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 12px 8px 0 8px;
+  margin: 0 36px 0 0;
+  text-align: center;
+}
+.pic-wrapper {
+  margin-bottom: 27px;
+}
+.part5-main-title {
+  font-size: 18px;
+}
+.part5-sub-title {
+  font-size: 14px;
+  line-height: 30px;
+  color: #ccc;
+}
+#shanghai {
+  font-size: 20px;
+}
