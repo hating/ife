@@ -47,7 +47,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+body {
+    background-color: #eeedec;
+}
 .top {
   position: relative;
   width:100%;
@@ -236,4 +238,195 @@ table {
 }
 .left-menu-myshare-title-name,.left-menu-imglib-title-name,.left-menu-personalcollect-title-name,.left-menu-growth-title-name,.left-menu-account-title-name {
   margin-left: 13px;
+}
+.right {
+  margin-left:260px;
+}
+.right-path {
+  background-color: #fff;
+  height: 30px;
+}
+.right-path-text {
+  font-family: "SimHei";
+  font-size: 12px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 9px;
+  color: #aaaaaa;
+}
+.right-path-text-stress {
+  color: #6898c2;
+}
+.right-module2 {
+  width: 890px;
+  height: 85px;
+  margin: 19px auto;
+  background-color: #fff;
+  padding: 15px 0 15px 31px;
+  box-sizing: border-box;
+}
+.right-module2>* {
+  float:left;
+}
+.right-module2-search-text,.right-module2-buyer-text,.right-module2-seller-text,.right-module2-spec-date-text,.right-module2-spec-time-text,.right-module2-spec-count-text,.right-module2-spec-deal-text{
+  font-family: "SimHei";
+  font-size: 12px;
+  color: #aaaaaa;
+}
+select {
+  border: solid 1px #ededec;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: #fff url("right-module2-down-arrow.png") no-repeat scroll right top;
+  height: 26px;
+  box-sizing: border-box;
+  padding: 0px 14px 0 6px;
+}
+select::-ms-expand {
+   display: none;
+}
+.right-module2-search {
+  margin-right: 38px;
+}
+.right-module2-buy-img {
+  float:right;
+  margin-top: 10px;
+  margin-right: 32px;
+}
+.right-module2-buy>* {
+  margin-bottom: 5px;
+}
+.right-module2-spec>* {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.right-module2-spec-date-input {
+  border: solid 1px #ededec;
+  width: 120px;
+  height: 20px;
+}
+.right-module2-spec-deal-select {
+  width: 116px;
+}
+.right-module2-spec {
+  margin-right: 30px;
+}
+.right-module2-search-button {
+  background-color: #388ac1;
+  color: #fff;
+  width: 50px;
+  height: 26px;
+  margin-top: 14px;
+  border: none;
+  font-family: "Microsoft YaHei";
+}
+.right-module3 {
+  margin: 0 auto 22px;
+  width:890px;
+  height: 65px;
+
+}
+.right-module3>* {
+  background-color: #fff;
+  float:left;
+  height: 65px;
+  margin-right: 5px;
+}
+.right-module3-leftarrow,.right-module3-rightarrow {
+  width:30px;
+}
+.right-module3-box {
+  width:110px;
+}
+.right-module3-history {
+  width:130px;
+  margin-right: 0px;
+}
+.right-module3-leftarrow-img,.right-module3-rightarrow-img {
+  margin: 24px 11px;
+}
+.right-module3-box-time {
+  display: block;
+  font-size: 12px;
+  color: #323333;
+  margin: 11px 30px;
+}
+.right-module3-box-dollar {
+  font-size: 21px;
+  color: #ec6500;
+  margin: 37px 20px;
+}
+.right-module3-box-dollar-mark {
+  font-size: 16px;
+  color: #aaa;
+}
+.right-module3-history-img {
+  margin: 17px 0 0 19px;
+}
+.right-module3-history-text {
+  font-size: 12px;
+  float: right;
+  color: #535353;
+  margin: 28px 21px 0 0;
+}
+.right-module3-box-block-active {
+  width: 110px;
+  height: 3px;
+  background-color: #4389c9;
+}
+.right-module4 {
+  width: 890px;
+  height: 88px;
+  margin: 0 auto;
+}
+.right-module4-box {
+  float: left;
+  width: 200px;
+  height: 70px;
+  background-color: #fff;
+  margin:0 28px 0 0;
+}
+.right-module4-box:last-of-type {
+  margin: 0px;
+}
+.right-module4-title {
+  font-size: 12px;
+  color: #323333;
+  margin-bottom: 7px;
+}
+.right-module4-box-block {
+  float: left;
+  width: 4px;
+  height: 70px;
+}
+.right-module4-box-block2 {
+  float: right;
+  width: 60px;
+  height: 47px;
+  margin: 12px 15px;
+}
+.right-module4-box-num {
+  font-family: "SimHei";
+  font-size: 12px;
+  color: #323333;
+  margin: 22px 0 0 12px;
+}
+.right-module4-box-num-deal {
+  display: block;
+  font-size: 10px;
+  margin-top: 8px;
+  color: #aaaaaa;
+}
+.green {
+  background-color: #43b29d;
+}
+.blue {
+  background-color: #388bc1;
+}
+.red {
+  background-color: #cf4a36;
+}
+.yellow {
+  background-color: #e2cd46;
 }
