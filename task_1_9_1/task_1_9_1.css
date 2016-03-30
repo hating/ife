@@ -450,7 +450,7 @@ select::-ms-expand {
   border: 1px solid #e6e8eb;
   border-radius: 5px 5px 0 0;
 }
-.right-module5-header-title,.right-module6-header-title {
+.right-module5-header-title,.right-module6-header-title,.right-module7-header-title,.right-module8-header-title {
   font-family: "SimHei";
   font-size: 12px;
   color: #aaaaaa;
@@ -526,13 +526,22 @@ select::-ms-expand {
   font-size: 12px;
   color: #535353;
 }
+.right-module6-content-table tr:nth-of-type(2) {
+    border-style: solid none solid none;
+    border-color: #ccc;
+    border-width: 1px;
+}
+
 .right-module6-content-table tr,.right-module6-content-table td {
-  border: 1px solid #ccc;
+
   height: 43px;
   padding-left: 15px;
 }
 .right-module6-content-price {
   width: 94px;
+  border-style:none solid none none;
+  border-color: #ccc;
+  border-width: 1px;
 }
 .right-module6-content-table {
   width: 280px;
@@ -557,4 +566,175 @@ select::-ms-expand {
   height: 25px;
   color: #fff;
   font-family: "SimHei";
+}
+.right-module7 {
+  width: 350px;
+  height: 356px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+.right-module7-header {
+  width: 350px;
+  height: 40px;
+  background-color: #f4f6f7;
+  border: 1px solid #e6e8eb;
+  border-radius: 5px 5px 0 0;
+}
+.right-module7 * {
+  font-size: 11.36px;
+}
+.right-module7-nav>* {
+  float: left;
+  border: 1px solid #cececf;
+  height: 20px;
+  padding:3px 6px;
+  box-sizing: border-box;
+  margin-right: 6px;
+}
+.right-module7-nav {
+  margin:10px 0 0 22px;
+}
+.right-module7-nav-year {
+  width: 65px;
+}
+.right-module7-nav-month {
+  width: 86px;
+}
+.right-module7-nav-markday {
+  width: 76px;
+}
+.right-module7-nav-back {
+  width: 65px;
+}
+.right-module7-nav-content {
+  margin:40px 0 0 22px;
+  width: 310px;
+
+}
+.right-module7-nav-content td {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 7px 0;
+}
+.right-module7-nav-content-week>td{
+  height: 30px;
+  border-width: 2px;
+  border-style: solid none none none;
+  border-color: #d9eaf7;
+}
+.right-module7-nav-content-greyline {
+  border-width: 2px;
+  border-style: solid none none none;
+  border-color: #e1e1e2;
+}
+.right-module7-nav-content-text-red {
+  color: #d46063;
+}
+.right-module7-nav-content-box {
+  border: 2px solid #f4c21d;
+}
+.right-module8 {
+  width: 530px;
+  height: 356px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-left: 9px;
+}
+.right-module8-header {
+  height: 40px;
+  background-color: #f4f6f7;
+  border: 1px solid #e6e8eb;
+  border-radius: 5px 5px 0 0;
+}
+.right-module8-content {
+  margin:18px 40px;
+}
+.right-module8-content th {
+  font-family: "SimHei";
+  font-size: 13px;
+}
+.right-module8-content tr {
+  font-family: "SimHei";
+  font-size: 12px;
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+.right-module8-content tr td:first-of-type {
+  width:66px;
+}
+.right-module8-content tr td:nth-of-type(2) {
+  width:90px;
+}
+.right-module8-content tr td:nth-of-type(3) {
+  width:290px;
+}
+.right-module8-content tr,.right-module8-content td,.right-module8-content th {
+  border: 1px solid #cbcbcb;
+}
+.right-module8-content span{
+  position: relative;
+  left: 0px;
+}
+.right-module8-content-grey {
+  width: 168px;
+  height: 4px;
+  background-color: #dcdcdc;
+  float: right;
+  margin: 8px 20px 0 0 ;
+}
+.right-module8-content-grey-exp1 {
+  width: 140px;
+  height: 4px;
+  background-color: #ed6e52;
+}
+.right-module8-content-grey-exp2 {
+  width: 122px;
+  height: 4px;
+  background-color: #ee804f;
+}
+.right-module8-content-grey-exp3 {
+  width: 104px;
+  height: 4px;
+  background-color: #f19f4f;
+}
+.right-module8-content-grey-exp4 {
+  width: 98px;
+  height: 4px;
+  background-color: #7fcbf0;
+}
+.right-module8-content-grey-exp5 {
+  width: 86px;
+  height: 4px;
+  background-color: #7fcbf0;
+}
+.right-module8-content-grey-exp6 {
+  width: 79px;
+  height: 4px;
+  background-color: #7fcbf0;
+}
+.right-module8-content-grey-exp7 {
+  width: 74px;
+  height: 4px;
+  background-color: #7fcbf0;
+}
+.right-module8-content-grey-exp8 {
+  width: 64px;
+  height: 4px;
+  background-color: #7fcbf0;
+}
+.right-module8-content-grey-exp9 {
+  width: 60px;
+  height: 4px;
+  background-color: #7fcbf0;
+}
+.right-module8-content-grey-exp10 {
+  width: 54px;
+  height: 4px;
+  background-color: #7fcbf0;
 }
