@@ -9,7 +9,7 @@ var right_out = document.getElementsByClassName("right-out")[0];
 var view = document.getElementsByClassName("view")[0];
 var sort_btn = document.getElementsByClassName("sort")[0];
 var current_data = document.getElementsByClassName("current-data")[0];
-var data = [10,90,20,80,30,40,80,60];
+var data = [];
 /*
 #269228 被选中的颜色
 #2ddffa 比较的颜色
